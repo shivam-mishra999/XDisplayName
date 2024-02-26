@@ -18,7 +18,6 @@ export default function Display() {
         event.preventDefault();
 
         if(!firstName || !lastName){
-            
             return;
         }
         const fullname = `${firstName} ${lastName}`;

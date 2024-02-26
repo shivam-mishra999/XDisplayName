@@ -2,8 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    font-family: 'Times New Roman';
 }
 .output{
     display: flex;
     align-items: flex-start;
+    font-family: 'Times New Roman';
 }
