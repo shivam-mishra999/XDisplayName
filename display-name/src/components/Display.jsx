@@ -40,7 +40,7 @@ export default function Display() {
         </div>
 
         <div>
-            <button onClick={handleSubmit}>Submit</button>
+            <button type="submit" onClick={handleSubmit}>Submit</button>
         </div>
       </form>
 
