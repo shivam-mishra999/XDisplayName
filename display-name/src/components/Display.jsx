@@ -44,11 +44,10 @@ export default function Display() {
         </div>
       </form>
 
-      <div className={styles.output}>
-        {fullName && 
+      {fullName && 
+        <div className={styles.output}>
             <p>Full Name: {fullName}</p>
-        }
-      </div>
+        </div>}
     </div>
   )
 }
