@@ -18,7 +18,7 @@ export default function Display() {
         event.preventDefault();
 
         if(!firstName || !lastName){
-            alert("please fill out this field");
+            
             return;
         }
         const fullname = `${firstName} ${lastName}`;
