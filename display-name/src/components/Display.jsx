@@ -27,8 +27,9 @@ export default function Display() {
 
   return (
     <div>
-      <h1>Full Name Display</h1>
+      
       <form className={styles.form}>
+      <h1>Full Name Display</h1>
         <div>
             <label htmlFor="firstName">First Name:</label>
             <input id="firstName" type="text" value={firstName} onChange={handleFirstName}></input>
