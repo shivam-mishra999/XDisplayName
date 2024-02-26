@@ -31,12 +31,12 @@ export default function Display() {
       <h1>Full Name Display</h1>
         <div>
             <label htmlFor="firstName">First Name:</label>
-            <input id="firstName" type="text" value={firstName} onChange={handleFirstName}></input>
+            <input id="firstName" type="text" value={firstName} onChange={handleFirstName} required></input>
         </div>
 
         <div>
             <label htmlFor="lastName">Last Name:</label>
-            <input id="lastName" type="text" value={lastName} onChange={handleLastName}></input>
+            <input id="lastName" type="text" value={lastName} onChange={handleLastName} required></input>
         </div>
 
         <div>
