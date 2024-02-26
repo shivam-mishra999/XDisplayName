@@ -27,6 +27,7 @@ export default function Display() {
 
   return (
     <div>
+      <h1>Full Name Display</h1>
       <form className={styles.form}>
         <div>
             <label htmlFor="firstName">First Name:</label>
